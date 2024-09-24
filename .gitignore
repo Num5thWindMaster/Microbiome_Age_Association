@@ -1,0 +1,93 @@
+# Byte编译的Python文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cython编译的C文件
+*.c
+
+# 日志文件
+*.log
+
+# 环境变量文件
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE编辑器相关文件
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# 虚拟环境
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 缓存文件
+*.cache
+*.coverage
+*.cover
+*.py,cover
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.pyc
+
+# 单元测试结果
+*.mo
+*.test
+*.pytest_cache/
+.tox/
+
+# 分析工具文件
+*.pylint
+pylint.log
+
+# MyPy类型检查
+.mypy_cache/
+
+# PyInstaller
+# 生成的捆绑Python应用程序
+/dist/
+/build/
+/*.spec
+
+# Sphinx文档
+docs/_build/
+
+# Django相关文件
+*.sqlite3
+/media
+/staticfiles
+
+# Flask相关文件
+instance/
+.webassets-cache
+
+# Scrapy相关文件
+.scrapy
+
+# Pyre类型检查器
+.pyre/
+
+# MacOS文件
+.DS_Store
+
+image/
+results/
+*.txt
+*.csv
+*.pth
+*.png
+*.bak
